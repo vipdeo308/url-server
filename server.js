@@ -1,7 +1,7 @@
 const express = require('express');
 const bodyParser = require('body-parser');
 const mongoose = require('mongoose');
-const ShortUrl = require('./models/shortUrl'); // You need to create this Mongoose model
+const ShortUrl = require('./models/shortURL'); // You need to create this Mongoose model
 
 const app = express();
 app.use(bodyParser.json());
